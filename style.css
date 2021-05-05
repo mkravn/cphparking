@@ -1,0 +1,88 @@
+@import url("normalize.css");
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font: 12px/1.5 Helvetica, Arial, sans-serif;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 0;
+}
+
+#slider-wrapper {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 100px;
+    height: 90%;
+    padding-top: 50px;
+    z-index: 100;
+}
+
+#slider {
+    height: 100%;
+}
+
+#categories {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    width: 400px;
+    height: 90%;
+    padding-top: 50px;
+    z-index: 100;
+}
+
+    #categories > div {
+        padding: 0 10px;
+        height: 25%;
+        color: #FFF;
+    }
+
+    #cat1 {
+        background: #0a5877;
+        background-image: url("images/iconography1.png");
+        background-position: 100px 0;
+        background-size: 300px 100%;
+        background-repeat: no-repeat;
+    }
+
+    #cat2 {
+        background: #cd7c63;
+        background-image: url("images/iconography2.png");
+        background-position: 100px 0;
+        background-size: 300px 100%;
+        background-repeat: no-repeat;
+    }
+
+    #cat3 {
+        background: #768e7c;
+        background-image: url("images/iconography3.png");
+        background-position: 100px 0;
+        background-size: 300px 100%;
+        background-repeat: no-repeat;
+    }
+
+    #cat4 {
+        background: #adadad;
+        background-image: url("images/iconography4.png");
+        background-position: 100px 0;
+        background-size: 300px 100%;
+        background-repeat: no-repeat;
+    }
+
+    .percentage {
+        font-size: 36px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 200;
+        color: #FFF;
+    }
